@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background: #d0efef !important;
+}
+
+[class*="col-"]{
+    text-align:center;
+    border:1px solid black;
+}
+
+.bapDiv {
+    max-width: 90%;
+    margin: auto;
+    background: white;
+}
+
+header {
+    max-width: 100%;
+    background-image: url(header.png);
+    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 9rem;
+}
+
+.homeRightContent {
+    float: right;
+    font-size: 12px;
+}
+
+.navbar{
+    background-image: url(menubg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    position: absolute;
+
+}
+
+a.nav-link {
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid gray;
+}
+
+button.logoutBtn {
+    position: absolute;
+    right: 17px;
+    top: 9px;
+    background: #2a9cd6;
+    border-color: #cfdc50;
+    color: white;
+}
+
+.content {
+    padding-bottom: 1px;
+}
+
+.leftContent{
+    text-align: center;
+}
+
+p.p1 {
+    max-width: 45%;
+    text-align: center;
+    margin: 39px auto;
+}
+
+.p1 a{
+    text-decoration: underline;
+}
+
+.p1 span{
+    font-size: 25px;
+    font-weight: bold;
+    color:green;
+}
+
+.imgDiv {
+    margin: 35px 0px;
+}
+
+.row {
+    justify-content: center;
+    align-items: center;
+}
+
+.rightContent {
+    max-width: 50%;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 41px;
+    padding: 6px;
+    height: 237px;
+    overflow: scroll;
+    margin-bottom: 20px;
+}
+
+.lastBtn button {
+    font-size: 12px;
+    padding: 0px 5px;
+    background-color: rgb(43 129 226);
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    border: none;
+}
+
+
+.lastBtn{
+    text-align: center;
+    margin:10px 0px;
+}
+
+div#navbarTogglerDemo01 {
+    background: #2a9cd6;
+}

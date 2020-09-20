@@ -1,0 +1,56 @@
+header {
+    max-width:100%;
+    background-image: url(header.png);
+    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:13rem;
+}
+
+
+.navbar{
+    background-image: url(menubg.png);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-size: 100% 100%;
+    height:auto;
+}
+
+.yellow {
+    background: #ffbd00 !important;
+}
+
+li.nav-item {
+    background: #2a9cd6;
+    margin-left: 5px;
+}
+
+a.nav-link {
+    border-bottom: none;
+}
+
+.marginright {
+    margin-right: 53px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.rightContent {
+    height: 28rem;
+}
+
+p.p1 {
+    max-width: 45%;
+    text-align: center;
+    margin: auto;
+}
+
+
+div#navbarTogglerDemo01 {
+    background: none !important;
+}
